@@ -45,6 +45,7 @@ function ResetA() {
   document.getElementById("MatchScoreSecond").textContent = MatchScoreSecond;
   if (MatchScoreSecond >= 0) {
     MatchScoreSecond = 0;
+    document.getElementById("MatchScoreSecond").textContent = MatchScoreSecond;
   } else {
     document.getElementById("MatchScoreSecond").textContent = MatchScoreSecond;
   }
@@ -54,6 +55,7 @@ function ResetB() {
   document.getElementById("MatchScore").textContent = MatchScore;
   if (MatchScore >= 0) {
     MatchScore = 0;
+    document.getElementById("MatchScore").textContent = MatchScore;
   } else {
     document.getElementById("MatchScore").textContent = MatchScore;
   }
